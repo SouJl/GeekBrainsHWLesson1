@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form", "Form\Form.csproj", "{EAAF7CEC-1BB9-4625-B7FB-D1C6BB3A2AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{9AE155BD-290D-456C-9A72-FC27A08799AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator", "DistanceCalculator\DistanceCalculator.csproj", "{618957A7-52C6-4619-8B44-42D341F40A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueChanger", "ValueChanger\ValueChanger.csproj", "{9AF0C380-42E3-44C0-B40C-F5F907191CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdWriter", "IdWriter\IdWriter.csproj", "{882A319C-AFEA-456B-88A7-4F384EFB81EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekBrainsLib", "GeekBrainsLib\GeekBrainsLib.csproj", "{B0E2566C-4D6E-45F8-B027-72C46EDCE20F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAAF7CEC-1BB9-4625-B7FB-D1C6BB3A2AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAF7CEC-1BB9-4625-B7FB-D1C6BB3A2AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAF7CEC-1BB9-4625-B7FB-D1C6BB3A2AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAF7CEC-1BB9-4625-B7FB-D1C6BB3A2AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE155BD-290D-456C-9A72-FC27A08799AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE155BD-290D-456C-9A72-FC27A08799AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE155BD-290D-456C-9A72-FC27A08799AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE155BD-290D-456C-9A72-FC27A08799AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618957A7-52C6-4619-8B44-42D341F40A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618957A7-52C6-4619-8B44-42D341F40A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618957A7-52C6-4619-8B44-42D341F40A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618957A7-52C6-4619-8B44-42D341F40A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF0C380-42E3-44C0-B40C-F5F907191CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF0C380-42E3-44C0-B40C-F5F907191CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF0C380-42E3-44C0-B40C-F5F907191CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF0C380-42E3-44C0-B40C-F5F907191CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882A319C-AFEA-456B-88A7-4F384EFB81EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882A319C-AFEA-456B-88A7-4F384EFB81EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882A319C-AFEA-456B-88A7-4F384EFB81EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882A319C-AFEA-456B-88A7-4F384EFB81EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E2566C-4D6E-45F8-B027-72C46EDCE20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E2566C-4D6E-45F8-B027-72C46EDCE20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E2566C-4D6E-45F8-B027-72C46EDCE20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E2566C-4D6E-45F8-B027-72C46EDCE20F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE54458-DB62-404F-9017-F24735D91978}
+	EndGlobalSection
+EndGlobal
