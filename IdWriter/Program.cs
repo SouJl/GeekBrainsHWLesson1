@@ -20,9 +20,9 @@ namespace IdWriter
             Console.WriteLine(str);
 
             //Задание в
-            ConsoleWritLineCenter(str);
+            ConsoleCenter(str);
 
-            ConsoleWriteLineOnPos(str, (Console.WindowWidth - str.Length) / 2 , 20);
+            ConsoleOnPos(str, (Console.WindowWidth - str.Length) / 2 , 20);
 
             ModifiedConsole.Pause();
         }
@@ -31,7 +31,7 @@ namespace IdWriter
         /// Вывод в центр консоли
         /// </summary>
         /// <param name="str">отображаемая строка</param>
-        static void ConsoleWritLineCenter(string str)
+        static void ConsoleCenter(string str)
         {
              Console.SetCursorPosition((Console.WindowWidth - str.Length) / 2, Console.WindowHeight / 2);
              Console.WriteLine(str);
@@ -43,7 +43,7 @@ namespace IdWriter
         /// <param name="str">отображаемая строка</param>
         /// <param name="x">координата х</param>
         /// <param name="y">координата y</param>
-        static void ConsoleWriteLineOnPos(string str, int x, int y)
+        static void ConsoleOnPos(string str, int x, int y)
         {
             Console.SetCursorPosition(x, y);
             Console.WriteLine(str);
